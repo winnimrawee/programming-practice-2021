@@ -24,6 +24,7 @@ def exercise_1(inputs): # DO NOT CHANGE THIS LINE
         5: [Lecture, Student, l, s], 
         6: [Teacher, Student, t, s]
     }
+    """
     output = inputs
 
     return output       # DO NOT CHANGE THIS LINE
