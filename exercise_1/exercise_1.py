@@ -123,8 +123,6 @@ def exercise_1(p,q,r): # DO NOT CHANGE THIS LINE
 
     ## Printing the Output
 
-
-
     print("\n\nISSUES (Task 4) (if any):")    
     for n in r.keys():
         for c in r[n][1]:
@@ -143,7 +141,7 @@ def exercise_1(p,q,r): # DO NOT CHANGE THIS LINE
 
     ## Printing of output
 
-    print('\nOutputs: ')
+    print('\nOutputs: (This is the printed version, there is also a dictionary output returned)')
     ## Task 1
     print('\n\nTask 1: List of People')
     for i in stu:
@@ -177,6 +175,16 @@ def exercise_1(p,q,r): # DO NOT CHANGE THIS LINE
         print(stu[i].name, 'has ID:', stu[i].student_id)
     for i in tea:
         print(tea[i].name, 'has ID:', tea[i].teacher_id)
+        
+    
+    output = {
+        1:[Person],
+        2:[Student, stu, Teacher, tea],
+        3:[Lecture, lec],
+        4:[Lecture, lec],
+        5:[Student, stu, Teacher, tea]
+    }
+    return output
         
 ## Running 
 exercise_1(p,q,r)
