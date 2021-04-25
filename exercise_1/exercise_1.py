@@ -178,11 +178,11 @@ def exercise_1(p,q,r): # DO NOT CHANGE THIS LINE
         
     
     output = {
-        1:[Person],
-        2:[Student, stu, Teacher, tea],
-        3:[Lecture, lec],
-        4:[Lecture, lec],
-        5:[Student, stu, Teacher, tea]
+        1 : [Person],
+        2 : [Student, stu, Teacher, tea],
+        3 : [Lecture, lec],
+        4 : [Lecture, lec],
+        5 : [Student, stu, Teacher, tea]
     }
     return output
         
