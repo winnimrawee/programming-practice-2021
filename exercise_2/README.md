@@ -1,4 +1,4 @@
-# Exercise 1 - Playing with Data Structures
+# Exercise 2 - Playing with Data Structures
 
 You were about to throw a party, however you realise there are many people to invite.
 To keep a track of people you have invited and know the estimated number of attendees you create a program to keep a track of it.
