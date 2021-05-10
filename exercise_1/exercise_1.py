@@ -1,4 +1,3 @@
-exercises
 ## SAMPLE INPUT  (Please use p, q, r variables)
 
 # p = list of teachers names
@@ -220,4 +219,4 @@ def exercise_1(inputs): # DO NOT CHANGE THIS LINE
     output = inputs
 
     return output       # DO NOT CHANGE THIS LINE
-submissions
+
