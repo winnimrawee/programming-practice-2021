@@ -7,12 +7,12 @@ def exercise_4():
     #Set Parameters
     trials = 30
     F = 1.0
-    number_of_variables = 2
+    number_of_variables = 3
     number_of_individuals = 100
     upper_bound = 10
     lower_bound = -5
     generations = 1000
-    evaluation = salomon
+    evaluation = rosenbrock
     graph = False  # Task 3: Set to True to see graph
     
     de_all = []
